@@ -1,0 +1,24 @@
+{
+  "name": "obsidian-pdf-niutrans-auto-translator",
+  "version": "0.1.0",
+  "description": "Obsidian plugin for automatic PDF selection translation with NiuTrans.",
+  "main": "main.js",
+  "scripts": {
+    "dev": "node esbuild.config.mjs",
+    "build": "tsc --noEmit --skipLibCheck && node esbuild.config.mjs production"
+  },
+  "keywords": [
+    "obsidian",
+    "plugin",
+    "pdf",
+    "translation",
+    "niutrans"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^20.17.30",
+    "esbuild": "^0.25.2",
+    "obsidian": "latest",
+    "typescript": "^5.8.3"
+  }
+}

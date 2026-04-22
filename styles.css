@@ -1,0 +1,59 @@
+.pdf-niutrans-panel {
+  position: fixed;
+  z-index: 9999;
+  width: min(420px, calc(100vw - 24px));
+  max-height: min(320px, calc(100vh - 24px));
+  overflow: auto;
+  padding: 12px 14px;
+  border: 1px solid var(--background-modifier-border);
+  border-radius: 12px;
+  background: var(--background-primary);
+  box-shadow: 0 14px 32px rgba(0, 0, 0, 0.18);
+  color: var(--text-normal);
+  display: none;
+}
+
+.pdf-niutrans-panel.is-visible {
+  display: block;
+}
+
+.pdf-niutrans-panel__header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin-bottom: 8px;
+}
+
+.pdf-niutrans-panel__title {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--text-muted);
+}
+
+.pdf-niutrans-panel__close {
+  border: 0;
+  background: transparent;
+  color: var(--text-muted);
+  cursor: pointer;
+  padding: 0;
+  line-height: 1;
+  font-size: 16px;
+}
+
+.pdf-niutrans-panel__status {
+  margin: 0 0 8px;
+  font-size: 12px;
+  color: var(--text-muted);
+}
+
+.pdf-niutrans-panel__content {
+  margin: 0;
+  white-space: pre-wrap;
+  line-height: 1.55;
+  word-break: break-word;
+}
+
+.pdf-niutrans-panel.is-error .pdf-niutrans-panel__content {
+  color: var(--text-error);
+}

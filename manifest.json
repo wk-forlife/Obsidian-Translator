@@ -1,0 +1,9 @@
+{
+  "id": "pdf-niutrans-auto-translator",
+  "name": "PDF NiuTrans Auto Translator",
+  "version": "0.1.0",
+  "minAppVersion": "1.5.0",
+  "description": "Automatically translate selected PDF text in Obsidian using NiuTrans.",
+  "author": "H.H",
+  "isDesktopOnly": true
+}
