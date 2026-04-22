@@ -1,6 +1,7 @@
 # PDF NiuTrans Auto Translator
 
 An Obsidian desktop plugin that automatically translates selected text in PDF views with the NiuTrans `v2` text translation API.
+This item is inspired by https://github.com/WShawnMing/Translator-For-Obsidian
 
 ## Features
 
